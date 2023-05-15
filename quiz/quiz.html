@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="../quiz/quiz.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+	<div class="start_btn"><button>COMENZAR</button></div>
+	<div class="info_box">
+		<div class="info_title">
+			<span>Reglas del Quiz</span>
+		</div>
+		<div class="info_list">
+		<div class="info">1. Sólo tendrás 15 segundos por pregunta. </div>
+		<div class="info">2. Una vez que hayas selecciondó tu pregunta, no puedes volver a seleccionar.</div>
+		<div class="info">3. No puedes seleccionar nada una vez que el tiempo se haya acabado.</div>
+		<div class="info">4. No puedes salir del Quiz mientras estas jugando.</div>
+		<div class="info">5. Obtendrás puntos en base a tus respuestas correctas.</div>
+	</div>
+	
+	<div class="buttons">
+		<button class="quit">Salir</button>
+		<button class="restart">Continuar</button>
+	</div>
+</div>
+
+<div class="quiz_box">
+	<header>
+		<div class="title">Quiz</div>
+		<div class="timer">
+			<div class="time_text">Tiempo</div>
+			<div class="timer_sec">15</div>
+		</div>
+	</header>
+	<section>
+		<div class="que_text">
+			<span>What does html stands for?</span>
+		</div>
+		<div class="option_list">
+			<div class="option">
+				<span>Hyper text Preprocesor</span>
+				<div class="icon tick"><i class="fas fa-check"></i></div>
+			</div> 
+			<div class="option">
+				<span>Hyper Tetxt Markup Language</span>
+				<div class="icon cross"><i class="fas fa-times"></i></div>
+			</div>
+			<div class="option">
+				<span>Hyper Tetxt Markup Language</span>
+			</div>
+			<div class="option">
+				<span>Hyper Tetxt Markup Language</span>
+			</div>
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="total_que">
+			<span><p>2</p>de<p>5</p>Preguntas/span>
+		</div>
+		<button class="next_btn">Siguiente</button>
+
+	</footer>
+</div>
+<div class="result_box">
+	<div class="icon">
+		<i class="fas fa-crown"></i>
+	</div>
+	<div class="complte_text">¡Haz completado el Quiz!</div>
+	<div class="score_text">
+		<span>bien hecho, obtuviste <p>3</p > de <p>5</p></span>
+	</div>
+	<div class="buttons">
+		<button class="restart">Jugar</button>
+		<button class="quit">Salir</button>
+</div>
+
+<script type="text/javascript" src="../quiz/questions.js"></script>
+  
+<script type="text/javascript" src="../quiz/quiz.js"></script>
+
+
+</body>
+</html>
